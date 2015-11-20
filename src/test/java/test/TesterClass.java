@@ -13,5 +13,13 @@ public class TesterClass {
 		assertEquals(t.multiply(), 6);
 		
 	}
+	
+	@Test
+	public void testAdd() {
+		TestClass t = new TestClass(2, 3);
+		
+		assertEquals(t.add(), 5);
+		
+	}
 
 }
